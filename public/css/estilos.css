@@ -1,0 +1,45 @@
+body {
+    background-image: url('/img/login-bg.jpg');
+    background-size: 50% auto; /* Ancho al 50%, altura automática */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(21, 19, 19, 0.5);
+    padding: 20px; /* Añadido para separar el contenido del borde */
+}
+
+h1, h3 {
+    text-align: center;
+    color: white;
+}
+
+h5{
+    text-align: justify;
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Hacemos los input del formulario transparentes */
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"] {
+    background-color: transparent;
+    border: 1px solid white; /* Añadido para mantener el borde visible */
+    color: white; /* Añadido para mantener el texto visible */
+}
